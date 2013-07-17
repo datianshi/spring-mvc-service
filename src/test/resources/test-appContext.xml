@@ -22,6 +22,7 @@
 	</beans:bean>
 	
 	<context:component-scan base-package="com.sample.mvc" />
+	<context:component-scan base-package="com.sample.domain" />
 	
 	
 	

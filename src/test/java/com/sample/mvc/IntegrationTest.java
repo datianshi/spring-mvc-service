@@ -1,6 +1,7 @@
 package com.sample.mvc;
 
 import org.junit.Assert;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,6 +15,7 @@ import com.sample.domain.MyBean;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes = {AppConfig.class})
+@Ignore
 public class IntegrationTest {
 	@Autowired
 	private RestTemplate restTemplate;
