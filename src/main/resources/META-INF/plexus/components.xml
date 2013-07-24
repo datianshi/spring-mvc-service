@@ -1,0 +1,9 @@
+<component>
+  <role>com.lazerycode.jmeter.FailureScanner</role>
+  <implementation>com.lazerycode.jmeter.DefaultFailureScanner</implementation>
+<!--   <requirements>
+    <requirement>
+      <role>org.codehaus.plexus.ComponentA</role>
+    </requirement>
+  </requirements> -->
+</component>
