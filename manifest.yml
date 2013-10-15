@@ -1,0 +1,9 @@
+---
+applications:
+- name: my-new-app
+  memory: 256M
+  instances: 1
+  host: my-new-app
+  domain: 10.244.0.254.xip.io
+  path: target/mvc-1.0.0-BUILD-SNAPSHOT.war
+  buildpack: git://github.com/datianshi/java-buildpack.git
